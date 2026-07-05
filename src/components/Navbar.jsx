@@ -29,12 +29,15 @@ const Navbar = () => {
           UrbanStyle
         </Link>
 
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#nav"
-        >
+       <button
+  className="navbar-toggler"
+  type="button"
+  data-bs-toggle="collapse"
+  data-bs-target="#nav"
+  aria-controls="nav"
+  aria-expanded="false"
+  aria-label="Toggle navigation"
+>
           <span className="navbar-toggler-icon"></span>
         </button>
 
