@@ -4,7 +4,7 @@ import { getProducts } from "../../services/api";
 import ProductCard from "../../components/ProductCard";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import "./productList.css";
+import "./productlist.css";
 
 
 const ProductList = () => {
