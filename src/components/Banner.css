@@ -1,0 +1,52 @@
+.banner {
+  background: linear-gradient(
+    135deg,
+    #212529,
+    #343a40
+  );
+
+  color: white;
+
+  min-height: 450px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 50px 20px;
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.banner-subtitle {
+  font-size: 1.3rem;
+  margin: 20px 0;
+  color: #e9ecef;
+}
+
+.banner-btn {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.banner-btn:hover {
+  transform: translateY(-3px);
+}
+
+.sale-badge {
+  display: inline-block;
+  background: #dc3545;
+  padding: 8px 18px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}

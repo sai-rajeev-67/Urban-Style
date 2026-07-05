@@ -1,0 +1,23 @@
+
+
+
+.filter-card {
+  border: none;
+  border-radius: 15px;
+}
+
+.filter-title {
+  font-weight: 700;
+}
+
+.search-box {
+  border-radius: 10px;
+}
+
+.filter-select {
+  border-radius: 10px;
+}
+
+.product-count {
+  color: #6c757d;
+}   

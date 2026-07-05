@@ -1,0 +1,690 @@
+{
+  "users": [
+    {
+      "name": "Medisetti Sai Rajeev Lochan",
+      "email": "medesettysai@gmail.com",
+      "password": "sai@6789",
+      "id": "1LRJFXrqidE"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Classic Cotton Shirt",
+      "category": "Men",
+      "price": "1200",
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/8/lZzc1I1D_0f56a2edf8c0424bbc1bbabcd35f8dbe.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Slim Fit Casual Shirt",
+      "category": "Men",
+      "price": 1499,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/SEPTEMBER/17/udMcM16e_378ff2589acc49b2b5ff4e05f26432a4.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Premium Polo T-Shirt",
+      "category": "Men",
+      "price": 999,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/APRIL/4/BrjfBXey_bed794b50958460a97b63622ce5db0a9.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Denim Jacket",
+      "category": "Men",
+      "price": 2499,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/12974230/2025/7/7/0316b1fd-dd6e-48eb-924d-19788d3b8b221751891043150-Urbano-Fashion-Men-Solid-Regular-Fit-Washed-Full-Sleeve-Deni-1.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Oversized Graphic Tee",
+      "category": "Men",
+      "price": 899,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/MAY/25/rbyXMgRH_ae3bd4b758a24ed8919ed0a2ba8d7334.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Roadster Casual Jacket",
+      "category": "Men",
+      "price": 2799,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/33079566/2025/7/18/bf3cf17e-7871-44b5-885e-65517b5eca951752834229158-Roadster-Men-Jackets-1761752834228511-1.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Regular Fit Shirt",
+      "category": "Men",
+      "price": 1399,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MAY/6/eGf6z2dk_2341ee1aad42450dafcb41b87509c344.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Urban Hoodie",
+      "category": "Men",
+      "price": 1899,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/29/Yw9Dx5t2_cfa51854f3134485841d425e86f9d29c.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Streetwear T-Shirt",
+      "category": "Men",
+      "price": 1099,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/JULY/1/QRg58R82_ceaf599f127a423a9c9e187d06ef84f4.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Casual Sweatshirt",
+      "category": "Men",
+      "price": 1699,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/MAY/28/aWtxeeCo_21392e876e7b4c4f8a413f9633337216.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Checked Casual Shirt",
+      "category": "Men",
+      "price": 1499,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/27321362/2024/2/2/5b809ea8-5fb6-4e8b-97e9-6061a46879841706874763102MISCHIEFMONKEYMenClassicOpaqueCasualShirt1.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Relaxed Fit T-Shirt",
+      "category": "Men",
+      "price": 999,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/JULY/1/LyLxvfkt_ecee8b77200b408eb7d19dfc4b35d2f5.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Premium Cotton Polo",
+      "category": "Men",
+      "price": 1199,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/APRIL/29/uXniW0Y2_55198c4f27154df28af7d11c80f5553c.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Solid Casual Shirt",
+      "category": "Men",
+      "price": 1399,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/SEPTEMBER/10/HnL4ilxQ_d9b321d49b8f4773a9034f38abc737b9.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Straight Fit Jeans",
+      "category": "Men",
+      "price": 2199,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/32467362/2025/6/19/10fa51a9-9178-4700-89ea-086bb70d3e2f1750325087340-Mast--Harbour-Men-Straight-Fit-Mid-Rise-Light-Fade-Stretchab-1.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Printed T-Shirt",
+      "category": "Men",
+      "price": 899,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/MAY/21/Rw0N0KGU_730c581694084a7eba5f87d086d81b23.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Cargo Pants",
+      "category": "Men",
+      "price": 2299,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2024/NOVEMBER/14/QbVU33JB_b4a70c876e304a1398798e0118ba34d3.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Athleisure Joggers",
+      "category": "Men",
+      "price": 1599,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/MARCH/12/X187TdDV_f2e4bd5a2d4346f88ea79c74d0ba306b.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Baggy Fit Jeans",
+      "category": "Men",
+      "price": 2399,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/MARCH/27/VBKgVJ6h_85b6d1662f204ccabd6e8e31e1cdd2b0.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Relaxed Denim Pants",
+      "category": "Men",
+      "price": 2499,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/28749636/2025/4/19/49f549c4-84de-4dfd-a1cd-b04613c71b151745001139077-The-Roadster-Lifestyle-Co-Men-Beige-Pure-Cotton-Rigid-Baggy--1.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Casual Sneakers",
+      "category": "Footwear",
+      "price": 2999,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/APRIL/14/8KvJGKsM_fa45a21fc7244dd4b46f8607d88a67da.jpg"
+    },
+    {
+      "id": "23",
+      "name": "Sports Running Shoes",
+      "category": "Footwear",
+      "price": 3499,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/3/p8Ghe26z_ab5ade971f2740b7bb60dd16ea3d0414.jpg"
+    },
+    {
+      "id": "24",
+      "name": "Leather Loafers",
+      "category": "Footwear",
+      "price": 2699,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/APRIL/6/62UFutLZ_93733d64125a47a7a7e7f0b0414d32fc.jpg"
+    },
+    {
+      "id": "25",
+      "name": "Outdoor Sandals",
+      "category": "Footwear",
+      "price": 1499,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2026/MAY/4/RY6OB5m8_1656452b06cc4eb98bda2152be45c2b7.jpg"
+    },
+    {
+      "id": "26",
+      "name": "Fashion Sneakers",
+      "category": "Footwear",
+      "price": 3199,
+      "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29524868/2024/5/14/a2400184-eb1c-4d4c-82ad-423905d6c3831715666427318Sandals1.jpg"
+    },
+    {
+      "id": "27",
+      "name": "Slip-On Sandals",
+      "category": "Footwear",
+      "price": 1299,
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/28851784/2024/4/10/c0dfe38b-cf37-4014-a9be-5353e8a139d21712771441525ELPASOMenBlueFauxLeatherCasualSlipOnSandals1.jpg"
+    },
+    {
+      "id": "28",
+      "name": "Women's Floral Dress",
+      "category": "Women",
+      "price": 1999,
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f"
+    },
+    {
+      "id": "29",
+      "name": "Cotton Kurti",
+      "category": "Women",
+      "price": 1299,
+      "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b"
+    },
+    {
+      "id": "30",
+      "name": "Women's Denim Jacket",
+      "category": "Women",
+      "price": 2499,
+      "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b"
+    },
+    {
+      "id": "31",
+      "name": "Printed Top",
+      "category": "Women",
+      "price": 899,
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1"
+    },
+    {
+      "id": "32",
+      "name": "Casual Leggings",
+      "category": "Women",
+      "price": 799,
+      "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae"
+    },
+    {
+      "id": "33",
+      "name": "Women's Hoodie",
+      "category": "Women",
+      "price": 1799,
+      "image": "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_75,w_1080/v1/assets/images/2025/OCTOBER/31/llNEd5UR_8898b080b2a547fa98d293604370aaca.jpg"
+    },
+    {
+      "id": "34",
+      "name": "Pleated Skirt",
+      "category": "Women",
+      "price": 1499,
+      "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c"
+    },
+    {
+      "id": "35",
+      "name": "Women's Blazer",
+      "category": "Women",
+      "price": 2999,
+      "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b"
+    },
+    {
+      "id": "36",
+      "name": "Ankle Length Jeans",
+      "category": "Women",
+      "price": 1899,
+      "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/2026/MAY/17/TjQSzUiE_c7c3b89d8b394ed3b851ffe8779fd8c0.jpg"
+    },
+    {
+      "id": "37",
+      "name": "Women's Sweatshirt",
+      "category": "Women",
+      "price": 1599,
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f"
+    },
+    {
+      "id": "38",
+      "name": "Classic Wrist Watch",
+      "category": "Accessories",
+      "price": 2499,
+      "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49"
+    },
+    {
+      "id": "39",
+      "name": "Leather Wallet",
+      "category": "Accessories",
+      "price": 999,
+      "image": "https://images.unsplash.com/photo-1627123424574-724758594e93"
+    },
+    {
+      "id": "40",
+      "name": "Fashion Sunglasses",
+      "category": "Accessories",
+      "price": 1499,
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083"
+    },
+    {
+      "id": "41",
+      "name": "Travel Backpack",
+      "category": "Accessories",
+      "price": 1999,
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+    },
+    {
+      "id": "42",
+      "name": "Leather Belt",
+      "category": "Accessories",
+      "price": 799,
+      "image": "https://images.unsplash.com/photo-1624222247344-550fb60583dc"
+    },
+    {
+      "id": "43",
+      "name": "Women's Handbag",
+      "category": "Accessories",
+      "price": 2199,
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3"
+    },
+    {
+      "id": "44",
+      "name": "Sports Cap",
+      "category": "Accessories",
+      "price": 699,
+      "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee"
+    },
+    {
+      "id": "45",
+      "name": "Bluetooth Earbuds",
+      "category": "Accessories",
+      "price": 2999,
+      "image": "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_75,w_1080/v1/assets/images/2026/JUNE/8/Lc90EiKd_bfa78d85c7ab4c2ebd57bd30adb30e97.jpg"
+    },
+    {
+      "id": "46",
+      "name": "Silver Bracelet",
+      "category": "Accessories",
+      "price": 1299,
+      "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a"
+    },
+    {
+      "id": "47",
+      "name": "Laptop Sleeve",
+      "category": "Accessories",
+      "price": 899,
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+    },
+    {
+  "id": "48",
+  "name": "Kids Cartoon T-Shirt",
+  "category": "Kids",
+  "price": 799,
+  "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea"
+},
+{
+  "id": "49",
+  "name": "Kids Denim Shorts",
+  "category": "Kids",
+  "price": 999,
+  "image": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4"
+},
+{
+  "id": "50",
+  "name": "Kids Hoodie",
+  "category": "Kids",
+  "price": 1199,
+  "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef"
+},
+{
+  "id": "51",
+  "name": "Kids Jogger Pants",
+  "category": "Kids",
+  "price": 899,
+  "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9"
+},
+{
+  "id": "52",
+  "name": "Kids Printed Shirt",
+  "category": "Kids",
+  "price": 1099,
+  "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9"
+},
+{
+  "id": "53",
+  "name": "Kids Winter Jacket",
+  "category": "Kids",
+  "price": 1799,
+  "image": "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2"
+},
+{
+  "id": "54",
+  "name": "Kids Party Dress",
+  "category": "Kids",
+  "price": 1499,
+  "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1"
+},
+{
+  "id": "55",
+  "name": "Kids Casual Trousers",
+  "category": "Kids",
+  "price": 999,
+  "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f"
+},
+{
+  "id": "56",
+  "name": "Kids Sports T-Shirt",
+  "category": "Kids",
+  "price": 699,
+  "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f"
+},
+{
+  "id": "57",
+  "name": "Kids Sweatshirt",
+  "category": "Kids",
+  "price": 1199,
+  "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c"
+},
+{
+  "id": "58",
+  "name": "Kids School Shoes",
+  "category": "Kids",
+  "price": 1299,
+  "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+},
+{
+  "id": "59",
+  "name": "Kids Sandals",
+  "category": "Kids",
+  "price": 799,
+  "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2"
+},
+{
+  "id": "60",
+  "name": "Kids Raincoat",
+  "category": "Kids",
+  "price": 1399,
+  "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+},
+{
+  "id": "61",
+  "name": "Kids Backpack",
+  "category": "Kids",
+  "price": 999,
+  "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+},
+{
+  "id": "62",
+  "name": "Kids Cap",
+  "category": "Kids",
+  "price": 499,
+  "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee"
+},
+{
+  "id": "63",
+  "name": "Wireless Earbuds",
+  "category": "Electronics",
+  "price": 2499,
+  "image": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f37"
+},
+{
+  "id": "64",
+  "name": "Smart Watch",
+  "category": "Electronics",
+  "price": 3999,
+  "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12"
+},
+{
+  "id": "65",
+  "name": "Bluetooth Speaker",
+  "category": "Electronics",
+  "price": 2999,
+  "image": "https://images.unsplash.com/photo-1589003077984-894e133dabab"
+},
+{
+  "id": "66",
+  "name": "Gaming Mouse",
+  "category": "Electronics",
+  "price": 1499,
+  "image": "https://images.unsplash.com/photo-1527814050087-3793815479db"
+},
+{
+  "id": "67",
+  "name": "Mechanical Keyboard",
+  "category": "Electronics",
+  "price": 3499,
+  "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae"
+},
+{
+  "id": "68",
+  "name": "HD Webcam",
+  "category": "Electronics",
+  "price": 1999,
+  "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+},
+{
+  "id": "69",
+  "name": "Power Bank",
+  "category": "Electronics",
+  "price": 1299,
+  "image": "https://images.unsplash.com/photo-1609592424823-5a2f75eaf8b5"
+},
+{
+  "id": "70",
+  "name": "Wireless Charger",
+  "category": "Electronics",
+  "price": 999,
+  "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0"
+},
+{
+  "id": "71",
+  "name": "Laptop Stand",
+  "category": "Electronics",
+  "price": 899,
+  "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+},
+{
+  "id": "72",
+  "name": "USB Hub",
+  "category": "Electronics",
+  "price": 799,
+  "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8"
+},
+{
+  "id": "73",
+  "name": "Noise Cancelling Headphones",
+  "category": "Electronics",
+  "price": 5999,
+  "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+},
+{
+  "id": "74",
+  "name": "Portable SSD",
+  "category": "Electronics",
+  "price": 4999,
+  "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6"
+},
+{
+  "id": "75",
+  "name": "LED Monitor",
+  "category": "Electronics",
+  "price": 9999,
+  "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf"
+},
+{
+  "id": "76",
+  "name": "Tablet Device",
+  "category": "Electronics",
+  "price": 15999,
+  "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0"
+},
+{
+  "id": "77",
+  "name": "Smartphone",
+  "category": "Electronics",
+  "price": 24999,
+  "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+},
+{
+  "id": "78",
+  "name": "Wooden Study Table",
+  "category": "Furniture",
+  "price": 5999,
+  "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+},
+{
+  "id": "79",
+  "name": "Modern Office Chair",
+  "category": "Furniture",
+  "price": 4499,
+  "image": "https://images.unsplash.com/photo-1505843490701-5be5d3f65a2f"
+},
+{
+  "id": "80",
+  "name": "Living Room Sofa",
+  "category": "Furniture",
+  "price": 12999,
+  "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc"
+},
+{
+  "id": "81",
+  "name": "Coffee Table",
+  "category": "Furniture",
+  "price": 3499,
+  "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+},
+{
+  "id": "82",
+  "name": "Bookshelf",
+  "category": "Furniture",
+  "price": 3999,
+  "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+},
+{
+  "id": "83",
+  "name": "TV Unit",
+  "category": "Furniture",
+  "price": 6999,
+  "image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a"
+},
+{
+  "id": "84",
+  "name": "Dining Table Set",
+  "category": "Furniture",
+  "price": 14999,
+  "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+},
+{
+  "id": "85",
+  "name": "Wooden Bed Frame",
+  "category": "Furniture",
+  "price": 18999,
+  "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+},
+{
+  "id": "86",
+  "name": "Wardrobe Cabinet",
+  "category": "Furniture",
+  "price": 9999,
+  "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+},
+{
+  "id": "87",
+  "name": "Bean Bag",
+  "category": "Furniture",
+  "price": 2499,
+  "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f"
+},
+{
+  "id": "88",
+  "name": "Computer Desk",
+  "category": "Furniture",
+  "price": 5499,
+  "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72"
+},
+{
+  "id": "89",
+  "name": "Bedside Table",
+  "category": "Furniture",
+  "price": 1999,
+  "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+},
+{
+  "id": "90",
+  "name": "Wooden Bench",
+  "category": "Furniture",
+  "price": 2999,
+  "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+},
+{
+  "id": "91",
+  "name": "Recliner Chair",
+  "category": "Furniture",
+  "price": 9999,
+  "image": "https://images.unsplash.com/photo-1519947486511-46149fa0a254"
+},
+{
+  "id": "92",
+  "name": "Corner Shelf",
+  "category": "Furniture",
+  "price": 2499,
+  "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+}
+  ],
+  "categories": [],
+  "cart": [],
+  "wishlist": [],
+  "orders": [
+    {
+      "id": "BI6_G0GFI4w",
+      "date": "7/4/2026",
+      "customer": {
+        "name": "Medisetti Sai Rajeev Lochan",
+        "phone": "09347336338",
+        "address": "Kalidindi",
+        "city": "Kalidindi",
+        "pincode": "521344"
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Classic Cotton Shirt",
+          "category": "Men",
+          "price": "1200",
+          "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/DECEMBER/8/lZzc1I1D_0f56a2edf8c0424bbc1bbabcd35f8dbe.jpg",
+          "selectedSize": "XL",
+          "quantity": 1
+        }
+      ],
+      "total": 1200
+    }
+  ],
+  "reviews": [],
+  "payments": [
+    {
+      "id": "DPT-k9J0ZnQ",
+      "orderId": 1783186544525,
+      "amount": 1200,
+      "method": "Razorpay",
+      "status": "Success",
+      "date": "7/4/2026"
+    }
+  ],
+  "contact": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

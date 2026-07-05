@@ -1,0 +1,33 @@
+.cart-item {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.cart-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.quantity-btn {
+  width: 40px;
+  height: 40px;
+}
+
+.summary-card {
+  border: none;
+  border-radius: 15px;
+  position: sticky;
+  top: 20px;
+}
+
+.empty-cart {
+  padding: 80px 0;
+}
+
+.empty-cart i {
+  font-size: 80px;
+  color: #6c757d;
+}

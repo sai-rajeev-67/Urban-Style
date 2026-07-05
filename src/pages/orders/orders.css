@@ -1,0 +1,26 @@
+.order-card {
+  border: none;
+  border-radius: 15px;
+}
+
+.order-status {
+  background: #198754;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.order-product {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.order-total {
+  color: #198754;
+  font-weight: 700;
+  font-size: 1.2rem;
+}

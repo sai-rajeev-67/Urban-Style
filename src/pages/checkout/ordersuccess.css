@@ -1,0 +1,22 @@
+.success-container {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-card {
+  border: none;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.success-icon {
+  font-size: 80px;
+  color: #198754;
+}
+
+.success-btn {
+  min-width: 180px;
+}
