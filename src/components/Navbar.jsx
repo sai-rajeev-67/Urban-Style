@@ -6,6 +6,7 @@ import { AuthContext } from "../context/AuthContext";
 import "../styles/navbar.css";
 
 const Navbar = () => {
+
   const { cart } =
     useContext(CartContext);
 
@@ -29,15 +30,15 @@ const Navbar = () => {
           UrbanStyle
         </Link>
 
-       <button
-  className="navbar-toggler"
-  type="button"
-  data-bs-toggle="collapse"
-  data-bs-target="#nav"
-  aria-controls="nav"
-  aria-expanded="false"
-  aria-label="Toggle navigation"
->
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+          aria-controls="nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
 
@@ -71,7 +72,7 @@ const Navbar = () => {
                 className="nav-link"
                 to="/wishlist"
               >
-                ❤️ Wishlist
+                Wishlist
 
                 <span className="wishlist-badge">
                   {wishlist.length}
@@ -96,6 +97,19 @@ const Navbar = () => {
 
             {user && (
               <>
+                {user?.role === "admin" && (
+
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link"
+                      to="/admin/dashboard"
+                    >
+                      ⚙️ Admin
+                    </Link>
+                  </li>
+
+                )}
+
                 <li className="nav-item">
                   <Link
                     className="nav-link"
@@ -122,6 +136,7 @@ const Navbar = () => {
                     Logout
                   </button>
                 </li>
+
               </>
             )}
 

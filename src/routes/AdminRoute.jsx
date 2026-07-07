@@ -1,8 +1,9 @@
 import { Navigate } from "react-router-dom";
 
-const PrivateRoute = ({
+const AdminRoute = ({
   children,
 }) => {
+
   const user =
     JSON.parse(
       localStorage.getItem(
@@ -10,11 +11,9 @@ const PrivateRoute = ({
       )
     );
 
-  return user ? (
-    children
-  ) : (
-    <Navigate to="/login" />
-  );
+  return user?.role === "admin"
+    ? children
+    : <Navigate to="/" />;
 };
 
-export default PrivateRoute; 
+export default AdminRoute;

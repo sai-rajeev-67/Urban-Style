@@ -37,6 +37,9 @@ import Invoice from "../pages/orders/Invoices";
 import RazorpayPayment
 from "../pages/payments/RazorpayPayment";
 
+
+import AdminRoute from "./AdminRoute";
+
 const AppRoutes = () => {
   return (
     <Routes>
@@ -129,40 +132,67 @@ const AppRoutes = () => {
 
 
 
-
-      <Route
+<Route
   path="/admin/dashboard"
-  element={<Dashboard />}
+  element={
+    <AdminRoute>
+      <Dashboard />
+    </AdminRoute>
+  }
 />
 
 <Route
   path="/admin/products"
-  element={<ProductManagement />}
+  element={
+    <AdminRoute>
+      <ProductManagement />
+    </AdminRoute>
+  }
 />
 
 <Route
   path="/admin/users"
-  element={<UserManagement />}
+  element={
+    <AdminRoute>
+      <UserManagement />
+    </AdminRoute>
+  }
 />
 
 <Route
   path="/admin/orders"
-  element={<OrderManagement />}
+  element={
+    <AdminRoute>
+      <OrderManagement />
+    </AdminRoute>
+  }
 />
 
 <Route
   path="/admin/categories"
-  element={<CategoryManagement />}
+  element={
+    <AdminRoute>
+      <CategoryManagement />
+    </AdminRoute>
+  }
 />
 
 <Route
   path="/admin/add-product"
-  element={<AddProduct />}
+  element={
+    <AdminRoute>
+      <AddProduct />
+    </AdminRoute>
+  }
 />
 
 <Route
   path="/admin/edit-product/:id"
-  element={<EditProduct />}
+  element={
+    <AdminRoute>
+      <EditProduct />
+    </AdminRoute>
+  }
 />
 
 <Route

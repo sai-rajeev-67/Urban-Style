@@ -15,6 +15,7 @@ const Register = () => {
       name: "",
       email: "",
       password: "",
+      role: "user",
     });
 
   const handleChange = (e) => {
@@ -34,7 +35,27 @@ const Register = () => {
       !formData.email ||
       !formData.password
     ) {
-      toast.warning("Fill all fields");
+
+      toast.warning(
+        "Fill all fields"
+      );
+
+      return;
+    }
+
+    const passwordRegex =
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&*!?])[A-Za-z\d@#$%^&*!?]{8,}$/;
+
+    if (
+      !passwordRegex.test(
+        formData.password
+      )
+    ) {
+
+      toast.warning(
+        "Password must contain 8+ characters, 1 uppercase, 1 lowercase, 1 number and 1 special character"
+      );
+
       return;
     }
 
@@ -58,8 +79,8 @@ const Register = () => {
       if (exists) {
 
         toast.error(
-  "Email already registered"
-);
+          "Email already registered"
+        );
 
         return;
 
@@ -70,9 +91,9 @@ const Register = () => {
         formData
       );
 
-    toast.success(
-  "Registration Successful"
-);
+      toast.success(
+        "Registration Successful"
+      );
 
       navigate(
         "/login"
@@ -82,7 +103,7 @@ const Register = () => {
 
       console.log(error);
 
-      alert(
+      toast.error(
         "Registration Failed"
       );
 
@@ -126,11 +147,20 @@ const Register = () => {
             type="password"
             name="password"
             placeholder="Password"
-            className="form-control mb-3"
+            className="form-control mb-2"
             onChange={
               handleChange
             }
           />
+
+          <small className="text-muted d-block mb-3">
+            Password must contain
+            at least 8 characters,
+            1 uppercase letter,
+            1 lowercase letter,
+            1 number and
+            1 special character.
+          </small>
 
           <button
             className="btn btn-dark"

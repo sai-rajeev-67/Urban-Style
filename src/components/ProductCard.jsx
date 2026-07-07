@@ -7,6 +7,8 @@ import "../pages/products/Products.css";
 import { toast } from "react-toastify";
 const ProductCard = ({ product }) => {
 
+  if (!product) return null;
+
   const { addToCart } =
     useContext(CartContext);
 
@@ -151,12 +153,9 @@ const ProductCard = ({ product }) => {
             🛒 Add To Cart
           </button>
 
-          <button
-            className="btn wishlist-btn text-white"
-            onClick={handleWishlist}
-          >
-            ❤️ Add To Wishlist
-          </button>
+        <button className="btn wishlist-btn" onClick={handleWishlist}>
+             ❤️ Add To Wishlist
+        </button>
 
         </div>
 
