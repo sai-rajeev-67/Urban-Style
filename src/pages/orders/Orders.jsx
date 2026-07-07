@@ -18,12 +18,32 @@ const Orders = () => {
 
     try {
 
+      const currentUser = JSON.parse(
+        localStorage.getItem("currentUser")
+      );
+
       const response =
         await API.get("/orders");
 
-      setOrders(
-        response.data
-      );
+      if (
+        currentUser &&
+        currentUser.role === "admin"
+      ) {
+
+        setOrders(response.data);
+
+      } else {
+
+        const userOrders =
+          response.data.filter(
+            (order) =>
+              order.userId ===
+              currentUser?.id
+          );
+
+        setOrders(userOrders);
+
+      }
 
     } catch (error) {
 
@@ -94,8 +114,7 @@ const Orders = () => {
               <p>
                 <strong>
                   Customer:
-                </strong>
-                {" "}
+                </strong>{" "}
                 {order.customer.name}
               </p>
 
@@ -121,8 +140,7 @@ const Orders = () => {
 
                     <br />
 
-                    Size:
-                    {" "}
+                    Size:{" "}
                     {item.selectedSize}
 
                     {" | Qty: "}
