@@ -1,10 +1,12 @@
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import { WishlistContext } from "../../context/WishlistContext";
 import { CartContext } from "../../context/CartContext";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import { toast } from "react-toastify";
 
 const Wishlist = () => {
+
   const {
     wishlist,
     removeFromWishlist,
@@ -16,13 +18,31 @@ const Wishlist = () => {
   const [selectedSizes, setSelectedSizes] =
     useState({});
 
+  useEffect(() => {
+
+    if (wishlist.length === 0) {
+
+      toast.info(
+        "Your Wishlist is Empty"
+      );
+
+    }
+
+  }, []);
+
   const handleAddToCart = (item) => {
+
     const size =
       selectedSizes[item.id];
 
     if (!size) {
-      alert("Please select a size");
+
+      toast.warning(
+        "Please select a size"
+      );
+
       return;
+
     }
 
     addToCart({
@@ -30,7 +50,20 @@ const Wishlist = () => {
       selectedSize: size,
     });
 
-    alert("Added To Cart");
+    toast.success(
+      "Added To Cart 🛒"
+    );
+
+  };
+
+  const handleRemove = (id) => {
+
+    removeFromWishlist(id);
+
+    toast.info(
+      "Removed From Wishlist"
+    );
+
   };
 
   return (
@@ -44,17 +77,22 @@ const Wishlist = () => {
         </h2>
 
         {wishlist.length === 0 ? (
+
           <h4>
             Wishlist is Empty
           </h4>
+
         ) : (
+
           <div className="row">
 
             {wishlist.map((item) => (
+
               <div
                 key={item.id}
                 className="col-md-4 mb-4"
               >
+
                 <div className="card h-100 shadow">
 
                   <img
@@ -88,6 +126,7 @@ const Wishlist = () => {
                         "XL",
                       ].map(
                         (size) => (
+
                           <button
                             key={size}
                             className={`btn btn-sm ${
@@ -109,6 +148,7 @@ const Wishlist = () => {
                           >
                             {size}
                           </button>
+
                         )
                       )}
 
@@ -130,7 +170,7 @@ const Wishlist = () => {
                       <button
                         className="btn btn-danger"
                         onClick={() =>
-                          removeFromWishlist(
+                          handleRemove(
                             item.id
                           )
                         }
@@ -143,10 +183,13 @@ const Wishlist = () => {
                   </div>
 
                 </div>
+
               </div>
+
             ))}
 
           </div>
+
         )}
 
       </div>
