@@ -67,55 +67,43 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="/wishlist"
-              >
-                Wishlist
-
-                <span className="wishlist-badge">
-                  {wishlist.length}
-                </span>
-
-              </Link>
-            </li>
-
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="/cart"
-              >
-                🛒 Cart
-
-                <span className="cart-badge">
-                  {cart.length}
-                </span>
-
-              </Link>
-            </li>
-
-            {user && (
+            {/* Normal User Menu */}
+            {user && user.role !== "admin" && (
               <>
-                {user?.role === "admin" && (
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    to="/wishlist"
+                  >
+                    Wishlist
 
-                  <li className="nav-item">
-                    <Link
-                      className="nav-link"
-                      to="/admin/dashboard"
-                    >
-                      ⚙️ Admin
-                    </Link>
-                  </li>
+                    <span className="wishlist-badge">
+                      {wishlist.length}
+                    </span>
 
-                )}
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    to="/cart"
+                  >
+                    Cart
+
+                    <span className="cart-badge">
+                      {cart.length}
+                    </span>
+
+                  </Link>
+                </li>
 
                 <li className="nav-item">
                   <Link
                     className="nav-link"
                     to="/orders"
                   >
-                    📦 Orders
+                    Orders
                   </Link>
                 </li>
 
@@ -124,7 +112,7 @@ const Navbar = () => {
                     className="nav-link"
                     to="/profile"
                   >
-                    👤 Profile
+                    Profile
                   </Link>
                 </li>
 
@@ -136,10 +124,33 @@ const Navbar = () => {
                     Logout
                   </button>
                 </li>
-
               </>
             )}
 
+            {/* Admin Menu */}
+            {user && user.role === "admin" && (
+              <>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    to="/admin/dashboard"
+                  >
+                    Admin Dashboard
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <button
+                    className="btn btn-outline-warning ms-3 logout-btn"
+                    onClick={logout}
+                  >
+                    Logout
+                  </button>
+                </li>
+              </>
+            )}
+
+            {/* Guest Menu */}
             {!user && (
               <>
                 <li className="nav-item">

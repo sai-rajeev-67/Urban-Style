@@ -2,8 +2,11 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import API from "../../services/api";
 import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 const RazorpayPayment = () => {
+
+  const navigate = useNavigate();
 
   const payNow = async () => {
 
@@ -16,7 +19,7 @@ const RazorpayPayment = () => {
 
     if (!pendingOrder) {
 
-      alert(
+      toast.error(
         "No order found"
       );
 
@@ -82,11 +85,12 @@ const RazorpayPayment = () => {
           );
 
           toast.success(
-  "Payment Successful"
-);
+            "Payment Successful"
+          );
 
-          window.location.href =
-            "/order-success";
+          navigate(
+            "/order-success"
+          );
 
         } catch (error) {
 
@@ -94,7 +98,7 @@ const RazorpayPayment = () => {
             error
           );
 
-          alert(
+          toast.error(
             "Failed To Save Order"
           );
 
@@ -151,8 +155,7 @@ const RazorpayPayment = () => {
           <hr />
 
           <h5>
-            Amount:
-            ₹
+            Amount: ₹
             {pendingOrder
               ? pendingOrder.total
               : 0}
