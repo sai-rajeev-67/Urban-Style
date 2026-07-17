@@ -11,8 +11,8 @@ const Profile = () => {
   const { user } =
     useContext(AuthContext);
 
-  const profile =
-    user || {
+  const profile = user ?? 
+   {
       name: "User",
       email: "user@gmail.com",
       phone: "9999999999",

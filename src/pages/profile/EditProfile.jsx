@@ -42,16 +42,21 @@ const EditProfile = () => {
 
     try {
 
-      await API.put(
+      const updatedUser = {
+        ...user,
+        ...formData,
+      };
+
+      await API.patch(
         `/users/${user.id}`,
-        formData
+        updatedUser
       );
 
-      login(formData);
+      login(updatedUser);
 
-     toast.success(
-  "Profile Updated Successfully"
-);
+      toast.success(
+        "Profile Updated Successfully"
+      );
 
       navigate(
         "/profile"
@@ -62,8 +67,8 @@ const EditProfile = () => {
       console.log(error);
 
       toast.error(
-  "Failed to update profile"
-);
+        "Failed to update profile"
+      );
 
     }
 
