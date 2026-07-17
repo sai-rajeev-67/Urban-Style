@@ -42,17 +42,30 @@ const EditProfile = () => {
 
     try {
 
+      if (!user?.id) {
+
+        toast.error(
+          "Please login again"
+        );
+
+        return;
+
+      }
+
       const updatedUser = {
         ...user,
         ...formData,
       };
 
-      await API.patch(
-        `/users/${user.id}`,
-        updatedUser
-      );
+      const response =
+        await API.patch(
+          `/users/${user.id}`,
+          updatedUser
+        );
 
-      login(updatedUser);
+      login(
+        response.data
+      );
 
       toast.success(
         "Profile Updated Successfully"
