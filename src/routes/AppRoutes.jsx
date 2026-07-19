@@ -38,6 +38,7 @@ import CategoryManagement from "../admin/pages/CategoryManagement";
 import AddProduct from "../admin/pages/AddProduct";
 import EditProduct from "../admin/pages/EditProduct";
 
+import AdminLogin from "../pages/auth/AdminLogin";
 const AppRoutes = () => {
   return (
     <Routes>
@@ -47,6 +48,11 @@ const AppRoutes = () => {
       <Route path="/" element={<Home />} />
 
       <Route path="/login" element={<Login />} />
+
+      <Route
+  path="/admin-login"
+  element={<AdminLogin />}
+/>
 
       <Route path="/register" element={<Register />} />
 

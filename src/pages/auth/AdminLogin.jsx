@@ -1,12 +1,12 @@
 import { useState, useContext } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/AuthContext";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import API from "../../services/api";
 import { toast } from "react-toastify";
 
-const Login = () => {
+const AdminLogin = () => {
 
   const navigate = useNavigate();
 
@@ -28,53 +28,54 @@ const Login = () => {
     });
 
   };
-const handleSubmit = async () => {
 
-  try {
+  const handleSubmit = async () => {
 
-    const response =
-      await API.get("/users");
+    try {
 
-    const users =
-      response.data;
+      const response =
+        await API.get("/users");
 
-    const user =
-      users.find(
-        (u) =>
-          u.email === formData.email &&
-          u.password === formData.password &&
-          u.role !== "admin"
+      const users =
+        response.data;
+
+      const admin =
+        users.find(
+          (u) =>
+            u.email === formData.email &&
+            u.password === formData.password &&
+            u.role === "admin"
+        );
+
+      if (!admin) {
+
+        toast.error(
+          "Invalid Admin Credentials"
+        );
+
+        return;
+
+      }
+
+      login(admin);
+
+      toast.success(
+        "Admin Login Successful"
       );
 
-    if (!user) {
+      navigate("/admin/dashboard");
+
+    } catch (error) {
+
+      console.log(error);
 
       toast.error(
-        "Invalid User Credentials"
+        "Login Failed"
       );
-
-      return;
 
     }
 
-    login(user);
-
-    toast.success(
-      "Login Successful"
-    );
-
-    navigate("/");
-
-  } catch (error) {
-
-    console.log(error);
-
-    toast.error(
-      "Login Failed"
-    );
-
-  }
-
-};
+  };
 
   return (
     <>
@@ -84,12 +85,14 @@ const handleSubmit = async () => {
 
         <div className="card p-4 shadow">
 
-          <h2>Login</h2>
+          <h2>
+            Admin Login
+          </h2>
 
           <input
             type="email"
             name="email"
-            placeholder="Email"
+            placeholder="Admin Email"
             className="form-control mb-3"
             onChange={handleChange}
           />
@@ -109,19 +112,6 @@ const handleSubmit = async () => {
             Login
           </button>
 
-          <p className="mt-3">
-
-            Don't have an account?
-
-            <Link
-              to="/register"
-              className="ms-2"
-            >
-              Register
-            </Link>
-
-          </p>
-
         </div>
 
       </div>
@@ -131,4 +121,4 @@ const handleSubmit = async () => {
   );
 };
 
-export default Login;
+export default AdminLogin;
